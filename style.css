@@ -24,6 +24,9 @@
     padding: 5px;
     margin-bottom: 5px; }
 
+.music-container {
+  text-align: center; }
+
 footer {
   text-align: center;
   background-color: #A38063;
