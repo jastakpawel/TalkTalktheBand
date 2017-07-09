@@ -24,8 +24,16 @@
     padding: 5px;
     margin-bottom: 5px; }
 
+#biography h2 {
+  text-align: center; }
+
 .music-container {
   text-align: center; }
+
+.video-container {
+  max-width: 100%; }
+  .video-container h2 {
+    text-align: center; }
 
 footer {
   text-align: center;
@@ -48,4 +56,19 @@ footer {
     footer a .fa-google {
       color: #4285F4; }
 
+@media(min-width: 1200px) {
+  .nav-list li:hover {
+    color: white;
+    background: #A38063; }
+
+  #biography {
+    width: 40%;
+    margin: 0 auto; }
+
+  .music-container {
+    width: 40%;
+    margin: 0 auto; }
+
+  footer a i:hover {
+    color: white; } }
 /*# sourceMappingURL=style.css.map */
